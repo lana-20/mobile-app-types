@@ -67,5 +67,22 @@ There are different types of mobile applications:
   - Performance challenges
   - UX may suffer
 
-
+## Cross-Platform
+- Developed to function on multiple mobile platforms
+- Compatible with more than one OS, such as iOS and Android
+- Frameworks:
+  - [React Native]9https://reactnative.dev/)
+  - [Flutter](https://flutter.dev/)
+  - [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin)
+  
+  ### Advantages
+  - Reusable code components. One codebase to manage.
+  - Time and cost savings
+  - Fast development
+  
+  ### Disadvantages
+  - Performance challenges
+  - Integration Challenges
+  - Limited UX
+  - Development is challenging
 
