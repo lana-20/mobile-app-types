@@ -9,8 +9,10 @@ There are different types of mobile applications:
 ## Native
 
 - Developed for a specific platform using native tools, such as:
-  - Android: Android developer, Android SDK, Java/Kotlin, Android Studio ➞ .apk ➞ Play Store
-  - iOS: Apple developer, iOS SDK, Objective-C/Swift, Xcode ➞ .ipa ➞ App Store
+  - Android: Android developer, Android SDK, Java/Kotlin
+    - Android Studio ➞ .apk ➞ Play Store
+  - iOS: Apple developer, iOS SDK, Objective-C/Swift
+    - Xcode ➞ .ipa ➞ App Store
   
   ### Advantages
   - Fast / Responsive / Reliable
@@ -22,7 +24,6 @@ There are different types of mobile applications:
   - Multiple code bases
   - Higher budget costs
   - Longer build times
-
 
 ## Web
 
@@ -44,5 +45,27 @@ There are different types of mobile applications:
   - Stability
   - No App Store or Play Store access
 
+## Hybrid
 
+- Web apps/pages wrapped in a native app
+- To render the static HTML and process JS locally, the app must be installed and run on a device.
+- Utilize the device's [browser engine](https://en.wikipedia.org/wiki/Browser_engine), not the browser itself.
+- Android and iOS classes which display the web content:
+  - iOS: [WKWebView Class](https://developer.apple.com/documentation/webkit/wkwebview)
+  - Android: [WebView Class](https://developer.android.com/develop/ui/views/layout/webapps/webview)
+- Frameworks:
+  - [Apache Cordova](https://cordova.apache.org/)
+  - [Ionic](https://ionic.io/)
   
+  ### Advantages
+  - One code base to manage - for the web part
+  - Time and cost savings
+  - Easier to scale
+  - Can still access the device features
+  
+  ### Disadvantages
+  - Performance challenges
+  - UX may suffer
+
+
+
