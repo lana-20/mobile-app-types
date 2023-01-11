@@ -71,7 +71,7 @@ There are different types of mobile applications:
 - Developed to function on multiple mobile platforms
 - Compatible with more than one OS, such as iOS and Android
 - Frameworks:
-  - [React Native]9https://reactnative.dev/)
+  - [React Native](https://reactnative.dev/)
   - [Flutter](https://flutter.dev/)
   - [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin)
   
@@ -86,3 +86,5 @@ There are different types of mobile applications:
   - Limited UX
   - Development is challenging
 
+----
+[Native, React Native, Flutter & More](https://github.com/lana-20/native-reactnative-flutter)
