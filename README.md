@@ -22,3 +22,27 @@ There are different types of mobile applications:
   - Multiple code bases
   - Higher budget costs
   - Longer build times
+
+
+## Web
+
+- Require only a web browser installed on a device
+- Use web technologies
+- Deployment is not constrained by the underlying platform
+  
+  ### Advantages
+  - Immediacy
+  - Compatibility
+  - Upgradability
+  - Findability
+  - Shareability
+  - Support and Maintenance
+  
+  ### Disadvantages
+  - No offline availability
+  - Limited device feature accessibility
+  - Stability
+  - No App Store or Play Store access
+
+
+  
