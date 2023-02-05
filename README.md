@@ -1,4 +1,4 @@
-# Types of Mobile Applications
+# <img src="https://user-images.githubusercontent.com/70295997/216807308-1147d149-9201-41b6-ba21-c37cf9a692a7.png" width=40> Types of Mobile Applications
 
 There are different types of mobile applications:
 - Native
@@ -6,7 +6,7 @@ There are different types of mobile applications:
 - Hybrid 
 - Native Once-Removed
 
-## Native
+## 👉 Native
 
 - Developed for a specific platform using native tools, such as:
   - Android: Android developer, Android SDK, Java/Kotlin
@@ -25,7 +25,7 @@ There are different types of mobile applications:
   - Higher budget costs
   - Longer build times
 
-## Web
+## 👉 Web
 
 - Require only a web browser installed on a device
 - Use web technologies
@@ -45,7 +45,7 @@ There are different types of mobile applications:
   - Stability
   - No App Store or Play Store access
 
-## Hybrid
+## 👉 Hybrid
 
 - Web apps/pages wrapped in a native app
 - To render the static HTML and process JS locally, the app must be installed and run on a device.
@@ -67,7 +67,7 @@ There are different types of mobile applications:
   - Performance challenges
   - UX may suffer
 
-## [Cross-Platform](https://ionic.io/resources/articles/ionic-vs-react-native-a-comparison-guide) / [Native Once-Removed](https://github.com/lana-20/native-once-removed-apps/tree/main#readme)
+## 👉 [Cross-Platform](https://ionic.io/resources/articles/ionic-vs-react-native-a-comparison-guide) / [Native Once-Removed](https://github.com/lana-20/native-once-removed-apps/tree/main#readme)
 - Developed to function on multiple mobile platforms
 - Compatible with more than one OS, such as iOS and Android
 - Frameworks:
