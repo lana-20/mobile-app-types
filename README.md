@@ -67,7 +67,7 @@ There are different types of mobile applications:
   - Performance challenges
   - UX may suffer
 
-## Cross-Platform / Native Once-Removed
+## Cross-Platform / [Native Once-Removed](https://github.com/lana-20/native-once-removed-apps/tree/main#readme)
 - Developed to function on multiple mobile platforms
 - Compatible with more than one OS, such as iOS and Android
 - Frameworks:
