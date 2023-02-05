@@ -4,7 +4,7 @@ There are different types of mobile applications:
 - Native
 - Web 
 - Hybrid 
-- Cross-Platform
+- Native Once-Removed
 
 ## Native
 
@@ -14,13 +14,13 @@ There are different types of mobile applications:
   - iOS: Apple developer, iOS SDK, Objective-C/Swift
     - Xcode ➞ .ipa ➞ App Store
   
-  ### Advantages
+  ### ➕ Advantages
   - Fast / Responsive / Reliable
   - Full device feature accessibility
   - UI/UX matches platform conventions
   - Offline availability
   
-  ### Disadvantages
+  ### ➖ Disadvantages
   - Multiple code bases
   - Higher budget costs
   - Longer build times
@@ -31,7 +31,7 @@ There are different types of mobile applications:
 - Use web technologies
 - Deployment is not constrained by the underlying platform
   
-  ### Advantages
+  ### ➕ Advantages
   - Immediacy
   - Compatibility
   - Upgradability
@@ -39,7 +39,7 @@ There are different types of mobile applications:
   - Shareability
   - Support and Maintenance
   
-  ### Disadvantages
+  ### ➖ Disadvantages
   - No offline availability
   - Limited device feature accessibility
   - Stability
@@ -57,17 +57,17 @@ There are different types of mobile applications:
   - [Apache Cordova](https://cordova.apache.org/)
   - [Ionic](https://ionic.io/)
   
-  ### Advantages
+  ### ➕ Advantages
   - One code base to manage - for the web part
   - Time and cost savings
   - Easier to scale
   - Can still access the device features
   
-  ### Disadvantages
+  ### ➖ Disadvantages
   - Performance challenges
   - UX may suffer
 
-## Cross-Platform
+## Cross-Platform / Native Once-Removed
 - Developed to function on multiple mobile platforms
 - Compatible with more than one OS, such as iOS and Android
 - Frameworks:
@@ -75,12 +75,12 @@ There are different types of mobile applications:
   - [Flutter](https://flutter.dev/)
   - [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin)
   
-  ### Advantages
+  ### ➕ Advantages
   - Reusable code components. One codebase to manage.
   - Time and cost savings
   - Fast development
   
-  ### Disadvantages
+  ### ➖ Disadvantages
   - Performance challenges
   - Integration Challenges
   - Limited UX
