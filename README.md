@@ -14,6 +14,7 @@ There are different types of mobile applications:
   - iOS: Apple developer, iOS SDK, Objective-C/Swift
     - Xcode ➞ .ipa ➞ App Store
 - Vendors are Apple and Google, the companies that produce the mobile OS.
+- On Android you can also distribute apps outside the Play Store, bu this is not possible for iOS.
   
   ### ➕ Advantages
   - Fast / Responsive / Reliable
