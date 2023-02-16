@@ -8,7 +8,7 @@ There are different types of mobile applications:
 
 ## 👉 Native
 
-- Developed for a specific platform using native tools, such as vendor-provided SDKs:
+- Developed for a specific platform using native tools, such as vendor-provided SDKs, taking advantange of vendor-provided APIs:
   - Android: Android developer, Android SDK, Java/Kotlin
     - Android Studio ➞ .apk ➞ Play Store
   - iOS: Apple developer, iOS SDK, Objective-C/Swift
@@ -31,6 +31,7 @@ There are different types of mobile applications:
 - Hosted on the internet → navigate to URL
 - Use web technologies
 - Deployment is not constrained by the underlying platform
+- Can save some [progressive] web apps (PWAs) to the home screen, so it feels more like opening a native app.
   
   ### ➕ Advantages
   - Immediacy
@@ -106,4 +107,4 @@ There are different types of mobile applications:
   - Development is challenging
 
 ----
-[Native, React Native, Flutter & More](https://github.com/lana-20/native-reactnative-flutter)
+📚 [Native, React Native, Flutter & More](https://github.com/lana-20/native-reactnative-flutter)
