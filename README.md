@@ -6,6 +6,8 @@ There are different types of mobile applications:
 - [Hybrid](https://github.com/lana-20/mobile-app-types/edit/main/README.md#-hybrid)
 - [Native Once-Removed](https://github.com/lana-20/mobile-app-types/edit/main/README.md#-cross-platform--native-once-removed)
 
+It's important that we understand which type our application under test is before we automate it, since the type will dictate the strategy we use to start an Appium session for that app, and the ways that we attempt to find and interact with elements inside of it.
+
 ## 👉 Native
 
 The first main category or type of mobile app is the category of "native" apps. Native apps are apps that run on the device "natively," as the name suggests. But this isn't a very helpful explanation. More specifically, native apps are built using the vendor-provided SDKs, taking advantage of the vendor-provided APIs. By "vendor" I mean Apple or Google, the companies that produce the mobile operating system. Native apps are really the kind of app that Apple or Google would want you to build. Native apps for iOS are built using Objective-C or Swift, and native apps for Android are built using Java or Kotlin. You download native apps to your phone either by using the App Store on iOS, or using the Play Store on Android. On Android, you can also distribute apps outside the Play Store, but this is not possible on iOS.
