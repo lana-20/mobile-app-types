@@ -8,11 +8,13 @@ There are different types of mobile applications:
 
 ## 👉 Native
 
+The first main category or type of mobile app is the category of "native" apps. Native apps are apps that run on the device "natively," as the name suggests. But this isn't a very helpful explanation. More specifically, native apps are built using the vendor-provided SDKs, taking advantage of the vendor-provided APIs. By "vendor" I mean Apple or Google, the companies that produce the mobile operating system. Native apps are really the kind of app that Apple or Google would want you to build. Native apps for iOS are built using Objective-C or Swift, and native apps for Android are built using Java or Kotlin. You download native apps to your phone either by using the App Store on iOS, or using the Play Store on Android. On Android, you can also distribute apps outside the Play Store, but this is not possible on iOS.
+
 - Developed for a specific platform using native tools, such as vendor-provided SDKs, taking advantange of vendor-provided APIs:
   - Android: Android developer, Android SDK, Java/Kotlin
-    - Android Studio ➞ .apk ➞ Play Store
+    - Android Studio ➞ <code>.apk</code> ➞ Play Store
   - iOS: Apple developer, iOS SDK, Objective-C/Swift
-    - Xcode ➞ .ipa ➞ App Store
+    - Xcode ➞ <code>.ipa</code> ➞ App Store
 - Vendors are Apple and Google, the companies that produce the mobile OS.
 - On Android you can also distribute apps outside the Play Store, bu this is not possible for iOS.
   
@@ -28,6 +30,8 @@ There are different types of mobile applications:
   - Longer build times
 
 ## 👉 Web
+
+The second category is the category of "mobile web" apps. Mobile web apps are just web apps, accessed from a mobile browser rather than a desktop browser. In this sense, they're not any different from a desktop web app, but mobile web apps are often designed responsively, to provide a better and different kind of experience on a mobile screen. Mobile web apps are designed using web technologies, and hosted on the internet. You access them using the mobile browser, like Chrome or Safari, and navigating to a URL, though if you want you can often "save" them to your home screen so it feels more like opening up a native app.
 
 - Require only a web browser installed on a device
 - Hosted on the internet → navigate to URL
@@ -50,6 +54,8 @@ There are different types of mobile applications:
   - No App Store or Play Store access
 
 ## 👉 Hybrid
+
+The third main category is the category of "hybrid" apps. As the name suggests, hybrid apps are a sort of combination of native and web apps. Technically, hybrid apps are a subcategory of native app, because the outermost component of a hybrid app is a native app. But embedded in some portion of this native app is a special component known as a "webview". A webview is basically a tiny little web browser that doesn't have its own borders or navigation controls. It can display web content that is loaded from inside the app itself, or it can display content that's downloaded over the internet, just like Chrome or Safari. Hybrid apps can differ in the ratio of native to webview they employ. Some hybrid apps are basically entirely a webview, so that the entire experience takes place in the webview. Other hybrid apps have a bunch of native controls, and only a portion of the app or the screen is dedicated to a webview. Safari and Chrome themselves are hybrid apps, with all the browser controls and input fields being native components, and the websites being displayed in a webview. Hybrid apps have been attractive to developers because they open up the possibility of developing apps using web technologies rather than using the iOS or Android SDKs. But at the end of the day, hybrid apps are still wrapped up and published as native apps, so they can be found at the platforms' respective stores.
 
 - Native apps where some or all functionality is inside a WebView.
   - Subcategory of the native apps, because the the outermost component of a hybrid app is a native app.
@@ -83,6 +89,13 @@ There are different types of mobile applications:
   - UX may suffer
 
 ## 👉 [Cross-Platform](https://ionic.io/resources/articles/ionic-vs-react-native-a-comparison-guide) / [Native Once-Removed](https://github.com/lana-20/native-once-removed-apps/tree/main#readme)
+
+There's actually another sort of native app, which doesn't differ fundamentally from native apps in terms of the final product, but does differ in terms of the development process. I call this "native once-removed" and we can think of it as a non-native development process leading to a native product.
+
+The most popular example of this is React Native. React Native is a project released by Facebook which enables development of native mobile apps, but using HTML, Javascript, and CSS (and of course, Facebook's React framework). Not only does React Native allow developing using tools more familiar to web developers, it makes it much easier to develop apps that run on both Android and iOS, without having to duplicate all your code and application logic. The test app we're using in this course, called "The App" is actually a React Native app.
+
+There are other examples, for example Google's answer to React Native called Flutter. The basic idea behind most of these tools is the same, where the web technologies are embedded inside a native app and trigger the creation and modification of purely native components. So the end result is a completely native app, it's just that we didn't code it up entirely in the way that Apple or Google had in mind.
+
 - Developed to function on multiple mobile platforms
   - Subtype of the "native app" category → native end product using a non-native development process
 - Compatible with more than just one OS, such as iOS or Android
