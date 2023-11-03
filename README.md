@@ -1,5 +1,7 @@
 # <img src="https://user-images.githubusercontent.com/70295997/216807308-1147d149-9201-41b6-ba21-c37cf9a692a7.png" width=40> Types of Mobile Applications
 
+NOTE: this file has been published as a [post](https://medium.com/@begunova/types-of-mobile-applications-9de9728b11c7) on Medium.
+
 There are different types of mobile applications:
 - [Native](https://github.com/lana-20/mobile-app-types/edit/main/README.md#-native)
 - [Web](https://github.com/lana-20/mobile-app-types/edit/main/README.md#-web) 
