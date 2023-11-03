@@ -94,7 +94,7 @@ The third main category is the category of "hybrid" apps. As the name suggests, 
 
 There's actually another sort of native app, which doesn't differ fundamentally from native apps in terms of the final product, but does differ in terms of the development process. I call this "native once-removed" and we can think of it as a non-native development process leading to a native product.
 
-The most popular example of this is React Native. React Native is a project released by Facebook which enables development of native mobile apps, but using HTML, Javascript, and CSS (and of course, Facebook's React framework). Not only does React Native allow developing using tools more familiar to web developers, it makes it much easier to develop apps that run on both Android and iOS, without having to duplicate all your code and application logic. The test app we're using in this course, called "The App" is actually a React Native app.
+The most popular example of this is React Native. React Native is a project released by Facebook which enables development of native mobile apps, but using HTML, Javascript, and CSS (and of course, Facebook's React framework). Not only does React Native allow developing using tools more familiar to web developers, it makes it much easier to develop apps that run on both Android and iOS, without having to duplicate all your code and application logic.
 
 There are other examples, for example Google's answer to React Native called Flutter. The basic idea behind most of these tools is the same, where the web technologies are embedded inside a native app and trigger the creation and modification of purely native components. So the end result is a completely native app, it's just that we didn't code it up entirely in the way that Apple or Google had in mind.
 
@@ -104,7 +104,7 @@ There are other examples, for example Google's answer to React Native called Flu
 - Frameworks:
   - [React Native](https://reactnative.dev/) 
     - Write app logic in HTML, CSS, and JS, but this gets translated on the fly to native components across both platforms.
-    - Project released by Facebook, which enables development of native mobile apps but using HTML/CSS/JS (and, of course, FB's React framework).
+    - Project released by Meta, which enables development of native mobile apps but using HTML/CSS/JS (and, of course, Meta's React framework).
     - Much easier to develop and run on both iOS and Android, without having to duplicate all the code and app logic.
   - [Flutter](https://flutter.dev/)
     - Main goal is to allow application of web dev processes to native mobile outcomes.
